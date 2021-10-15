@@ -19,11 +19,11 @@ body {
 h2 {
 
     overflow: hidden;
-    text-align: center;
+    color: #97b012 ;
+   
 }
 
-h2:before,h2:after 
-{
+h2:before,h2:after {
     background-color: #000;
     content: "";
     display: inline-block;
@@ -47,6 +47,20 @@ h2:after {
 
 }
 
+.container {
+
+    width: 1100px;
+    margin-left: 200px;
+}
+
+.logo {
+
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
 
 .meilleur {
 
@@ -60,12 +74,6 @@ h2:after {
     
 }
 
-.container {
-
-    width: 1100px;
-    margin-left: 200px;
-}
-
 .picturemeilleur{
   
     width: 150px;
@@ -74,15 +82,6 @@ h2:after {
     position:absolute; 
     top: 0;
     right: 0;
-    
-}
-
-.logo {
-
-    padding-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
     
 }
 
@@ -124,61 +123,60 @@ header nav a .fa{
 
 main {
 
-    text-align: center;
     width: 1100px;
     margin-left: 200px;
-}
-
-h2 {
-
-    color: #97b012 ;
+    background-color: white;
+    padding: 25px 25px 20px 15px;
 }
 
 p{
-
     color: black;
     font-family: 'Amaranth', sans-serif;
 }
 
-.thés {
+.fondateur{
 
-    background-color: white;
-    text-align: center;
-    width: 1100px;
-    margin-bottom: 30px;
-    margin-top: 25px;
+ 
 }
 
-.thé {
+.picturefondateur1{
 
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
+    border-radius: 5%;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
 }
 
-.product {
+.fondateur1 {
 
-    background-color: white;
-    background-size: auto;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
-    font-family: 'Amaranth', sans-serif;
-    padding: 15px 15px 15px 15px;
+    float: right;
+    text-align: justify;
     
 }
 
-.styled {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-    background-color: #b19066;
-    
+.picturefondateur2{
+
+    border-radius: 5%;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
 }
 
+.fondateur2{
+
+    float: left;
+    text-align: justify;
+}
+
+.concept{
+
+
+}
+
+.conceptpicture {
+
+    
+}
 
 footer {
 
