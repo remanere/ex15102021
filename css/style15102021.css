@@ -52,7 +52,7 @@ h2:after {
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
     text-align: center;
-    opacity: 55%;
+   
     width: 0 auto;
     position: relative;
     padding: 1px;
@@ -69,7 +69,6 @@ h2:after {
   
     width: 150px;
 	height: 70px;
-    opacity: 85%;
     float: right;
     position:absolute; 
     top: 0;
@@ -78,11 +77,18 @@ h2:after {
 }
 
 .logo {
+
     padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     
+}
+
+.panier {
+
+    border: solid;
+    border-radius: 50%;
 }
 
 header {
@@ -91,8 +97,9 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     background-image: url(../img/bg.jpg);
-    background-size: cover;
+    background-position: center, bottom ;
     background-repeat: no-repeat;
+    background-color: #97b012;
     margin-bottom: 25px;
     padding-bottom: 25px;
    
@@ -181,28 +188,33 @@ p{
 footer {
 
     background-image: url(../img/bg.jpg);
-    
-   
+    background-position: center, bottom ;
+    background-repeat: no-repeat;
+    background-color: #97b012;
 }
 
 .footertop {
 
-    background-color: #879e12;
+    background-color: rgba(0, 0, 0, 0.1);
     color: white;
     text-transform: uppercase;
+    text-align: center;
+    padding: 20px 20px 20px 10px ;
+    font-weight: bold;
+    display: inline-block;
     display: flex;
     justify-content: space-around;
-    padding: 25px 25px 25px 15px ;
-    font-weight: bold;
     
+}
+
+.footertop .fa{
+    margin-bottom: 5px;
+    display: block;
 }
 
 .footermid {
 
-    background-image: url(../img/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: auto;
+  
     color: white;
     border-radius: 5px;
     display: flex;
@@ -212,4 +224,11 @@ footer {
    
 }
 
+.licence {
+
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
 
