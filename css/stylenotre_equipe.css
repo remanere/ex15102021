@@ -127,6 +127,7 @@ main {
     margin-left: 200px;
     background-color: white;
     padding: 25px 25px 20px 15px;
+    margin-bottom: 30px;
 }
 
 p{
@@ -168,14 +169,37 @@ p{
     text-align: justify;
 }
 
+.textconcept{
+
+    text-align: justify;
+}
+
 .concept{
 
+    background-color: #eaefd5;
+    background-size: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    font-family: 'Amaranth', sans-serif;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
 
 }
 
-.conceptpicture {
+.concept1{
 
-    
+    padding: 0px 15px 0px 15px;
+}
+
+.concept2{
+
+    padding: 0px 15px 0px 15px;
+}
+
+.concept3{
+
+    padding: 0px 15px 0px 15px;
 }
 
 footer {
