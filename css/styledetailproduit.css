@@ -105,6 +105,7 @@ main {
 
     display: flex;
     justify-content: space-between;
+    
 }
 
 
@@ -119,6 +120,7 @@ main {
 
    width: 30%;
    float: right;
+   padding-top: 90px;
 
 }
 
