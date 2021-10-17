@@ -19,7 +19,7 @@ body {
 h2 {
 
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     color: #97b012 ;
     font-family: 'Amaranth', sans-serif;
    
@@ -33,6 +33,7 @@ h2:before,h2:after {
     position: relative;
     vertical-align: middle;
     width: 50%;
+
 }
 
 h2:before {
@@ -46,6 +47,7 @@ h2:after {
 
     left: 0.5em;
     margin-right: -50%;
+    width: 100%;
 
 }
 
@@ -133,6 +135,39 @@ main {
 p{
     color: black;
     font-family: 'Amaranth', sans-serif;
+}
+
+.thé {
+
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.product {
+
+    width: 100%;
+    background-size: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    font-family: 'Amaranth', sans-serif;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #b19066;
+    
 }
 
 footer {
