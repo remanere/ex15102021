@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 800px) {
+    main, header, .product{   
+      flex-direction: column;
+    }
+
+}
+
 a:link 
 { 
     text-decoration:none; 
@@ -60,12 +67,6 @@ h2:after {
     
 }
 
-.container {
-
-    width: 1100px;
-    margin-left: 200px;
-}
-
 .picturemeilleur{
   
     width: 150px;
@@ -81,7 +82,7 @@ h2:after {
 
     padding-bottom: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
     
 }
@@ -103,17 +104,16 @@ header {
 header nav {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 header nav a{
 
- 
     font-size: 18px;
     color: white;
     text-transform: uppercase;
-  
+   
 }
 
 header nav a .fa{
@@ -121,12 +121,16 @@ header nav a .fa{
     display: block;
 }
 
+.container {
+
+   
+}
 
 main {
 
     text-align: center;
-    width: 1100px;
-    margin-left: 200px;
+   
+    
 }
 
 h2 {
@@ -144,10 +148,10 @@ p{
 
     background-color: white;
     text-align: center;
-    width: 1100px;
     margin-bottom: 30px;
     margin-top: 25px;
 }
+
 
 .thé {
 
@@ -178,7 +182,6 @@ p{
     background-color: #b19066;
     
 }
-
 
 footer {
 

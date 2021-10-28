@@ -1,0 +1,41 @@
+*{
+
+    box-sizing: border-box;
+}
+
+main{
+
+    width: 100%;
+    background-color: gray;
+    
+    
+}
+
+.box{
+
+    width: 65%;
+    padding-left: 500px;
+    
+}
+
+.box1{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.box2{
+
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+   
+}
+
+#pictures {
+
+    padding: 15px 15px 15px 15px;
+
+}
