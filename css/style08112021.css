@@ -1,0 +1,70 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #f9f9f9;
+}
+
+header {
+
+    background-image: url(../img/img/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+
+}
+
+.barrenav {
+
+    float: right;
+}
+
+.creative {
+
+    color: white;
+    margin-top: 150px;
+    margin-left: 80px;
+    
+}
+
+h1 {
+
+    font-size: 100px;
+}
+
+#pictures {
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+    
+    
+}
+
+.backgroundcolor {
+
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.portofolio{
+
+    background-color: white;
+    margin-bottom: 110px ;
+    margin-top: 110px ;
+    padding-top: 100px;
+}
+
+h2{
+
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#pictures_2 {
+
+}
