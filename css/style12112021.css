@@ -1,0 +1,132 @@
+*{
+
+    box-sizing: border-box;
+}
+
+header {
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/tp12112021/img_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: white;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+.titre {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 220px 10px 0px 10px;
+  
+  
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+   
+}
+
+#learmore {
+
+    color: orangered;
+    text-decoration: none;
+}
+
+#row1 {
+
+    margin-top: 100px;
+}
+
+#row2 {
+
+    margin-top: 100px;
+    
+}
+
+#row3 {
+
+    margin-top: 100px;
+    padding : 80px 0px 80px 0px ;
+    background-color: #f9fafa;
+}
+
+.accordion-button {
+    background-color: #f9fafa;
+}
+.accordion-button:not(.collapsed) {
+    color:orangered;
+    background-color: #f9fafa;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #f9fafa;
+    outline: 0;
+    box-shadow:#f9fafa !important ; 
+ 
+}
+
+.accordion-body {
+    background-color: #f9fafa;
+    padding: 15px;
+}
+
+#cardrow3 {
+
+    background-color: #f9fafa;
+}
+
+#row4 {
+
+    margin-top: 100px;
+}
+
+.darkbouton {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+footer {
+
+    background-color:#f9fafa ;
+    margin-top: 100px;
+}
+
+#rowfooter2 {
+
+    margin-top: 30px;
+
+}
+
+#icones{
+    color: black;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.end{
+
+   text-align: center;
+   padding-top: 50px;
+}
+

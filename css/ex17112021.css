@@ -1,0 +1,40 @@
+.classimg {
+
+    background-image: url("../img/offre-noel.jpg");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.classnewimg {
+
+    background-image: url("../img/amelie.jpg");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.classrond {
+
+    background-color: black;
+    background-size: 250px;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.classcontent {
+
+    background-color: blue;
+    height: 200px;
+}
+
+.classcontent:before {
+
+    content: "ceci est un test";
+    color: black;
+    background-size: 250px;
+}
